@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./App.css";
 import { ThemeContext, CartProvider } from "./context/context";
-import { Text } from "./Text.component";
-import { Cart } from "./Cart.component";
+import { Text } from "./components/Text.component";
+import { Cart } from "./components/Cart.component";
 import { cartReducer } from "./context/reducer";
-import { AddToCart } from "./AddToCart.component";
+import { AddToCart } from "./components/AddToCart.component";
 
 const styles = {
   light: {
